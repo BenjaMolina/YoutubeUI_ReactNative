@@ -2,10 +2,11 @@ import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
     header:{
-        height: 55,
+        height: 50,
         backgroundColor: '#eaebec',
         flexDirection: 'row',
         justifyContent: 'space-between',
+        alignItems: 'center',
         elevation: 1,
         shadowColor: '#000000',
         shadowOffset: {

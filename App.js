@@ -14,6 +14,7 @@ import {
 
 import Header from './src/components/Header/Header';
 import Card from './src/components/Card/Card';
+import Tab from './src/components/Tab/Tab';
 
 export default class App extends Component {
 
@@ -37,6 +38,7 @@ export default class App extends Component {
                     <Card video={video}/>
                     <Card video={video}/>
                 </View>
+                <Tab />
             </View>
         );
     }
