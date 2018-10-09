@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 export const styles = StyleSheet.create({
     header:{
         height: 55,
-        backgroundColor: 'white',
+        backgroundColor: '#eaebec',
         flexDirection: 'row',
         justifyContent: 'space-between',
         elevation: 1,
@@ -13,7 +13,8 @@ export const styles = StyleSheet.create({
         height: 3
         },
         shadowRadius: 5,
-        shadowOpacity: 1.0
+        shadowOpacity: 1.0,
+        paddingLeft: 5,
     },
     logoyt: {
         height: 55,
@@ -24,7 +25,7 @@ export const styles = StyleSheet.create({
         flex: 1,
         height:60,
         flexDirection: 'row-reverse',
-        paddingHorizontal: 10,
+        paddingHorizontal: 18,
         alignItems: 'center',      
     },
     button:{
